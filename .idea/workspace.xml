@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="466c7580-1573-46b1-adcf-80dd14188792" name="Default Changelist" comment="" />
+    <list default="true" id="466c7580-1573-46b1-adcf-80dd14188792" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2/index2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +17,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XcEdOAIqtUAqSc2OjbLZmIHE1G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -46,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581337069112</updated>
-      <workItem from="1581337071328" duration="7240000" />
+      <workItem from="1581337071328" duration="8215000" />
+      <workItem from="1581506123244" duration="10007000" />
     </task>
     <servers />
   </component>
@@ -54,13 +65,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="541" y="367" key="NewPhpFileDialog" timestamp="1581341273323">
+    <state x="541" y="367" key="NewPhpFileDialog" timestamp="1581511194311">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="541" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1581341273323" />
-    <state x="229" y="72" key="SettingsEditor" timestamp="1581337115857">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="541" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1581511194311" />
+    <state x="229" y="72" key="SettingsEditor" timestamp="1581506137007">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
+    <state x="229" y="72" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1581389998882" />
+    <state x="229" y="72" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1581506137007" />
     <state x="229" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1581337115857" />
   </component>
 </project>
