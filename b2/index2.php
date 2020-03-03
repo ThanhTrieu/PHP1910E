@@ -122,8 +122,38 @@
 	}
 	$ht = dienTichHT(1,2,3);
 	echo $ht;
+	echo "<br/>";
+	
 	// viet ham theo chuan php 7 tim USCLN cua 120 va 300
 	function timUSCLN(int $a, int $b) : int
 	{
-	
+		if($a == 0 && $b == 0){
+			return  0;
+		} elseif ($a == 0 && $b != 0) {
+			return abs($b);
+		} elseif ($b == 0 && $a !=0 ) {
+			return abs($a);
+		}
+		
+		$usclnn = 1;
+		if($a > $b){
+			$max = $a;
+		} else {
+			$max = $b;
+		}
+		for ($i=1;$i<=$max;$i++){
+			if($a % $i == 0 && $b % $i == 0){
+				$usclnn = $i;
+			}
+		}
+		return $usclnn;
 	}
+	$uscln = timUSCLN(34, 68);
+	echo $uscln;
+	echo "<br/>";
+	
+	function timBoiSoChungNhoNhat(int $a, int $b) : int
+	{
+		return ($a*$b)/(timUSCLN($a,$b));
+	}
+	
