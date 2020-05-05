@@ -48,3 +48,30 @@ foreach ($number as $k => $item) {
 	echo "key - {$k} : value - {$item}";
 	echo "<br/>";
 }
+
+$info = []; // khai bao 1 mang rong
+// gan them cac phan tu vao trong mang
+$info['name'] = 'Van Teo';
+$info['age'] = 20;
+$info[2] = 2000;
+print_r($info);
+
+$arrNumber = [1,2,3,4,5,6,8,9];
+// viet ham tinh tong chan va le cua cac so trong mang
+function tinhTongChanLe($arrayNumber = [])
+{
+	$tongChan = 0;
+	$tongLe = 0;
+	foreach ($arrayNumber as $val) {
+		if($val % 2 === 0){
+			$tongChan += $val;
+		} elseif ($val % 2 !== 0) {
+			$tongLe += $val;
+		}
+	}
+	return ['tc' => $tongChan, 'tl' => $tongLe];
+}
+$kq = tinhTongChanLe($arrNumber);
+$tc = $kq['tc'];
+$tl = $kq['tl'];
+echo "Tong chan : {$tc} - Tong le: {$tl}";
