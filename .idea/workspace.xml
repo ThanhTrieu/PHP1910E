@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="466c7580-1573-46b1-adcf-80dd14188792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/b3/index3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b3/index4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b3/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/b3/index2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b3/index4.php" beforeDir="false" afterPath="$PROJECT_DIR$/b3/index4.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -65,7 +66,8 @@
       <workItem from="1583246893605" duration="1250000" />
       <workItem from="1583430119058" duration="6000" />
       <workItem from="1583462356557" duration="604000" />
-      <workItem from="1588572688070" duration="11125000" />
+      <workItem from="1588572688070" duration="12032000" />
+      <workItem from="1588748693236" duration="11622000" />
     </task>
     <servers />
   </component>
@@ -73,16 +75,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="541" y="364" key="NewPhpFileDialog" timestamp="1588599128683">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="541" y="365" key="NewPhpFileDialog" timestamp="1588773446998">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="541" y="364" key="NewPhpFileDialog/0.23.1440.814@0.23.1440.814" timestamp="1588599128683" />
+    <state x="541" y="365" key="NewPhpFileDialog/0.23.1440.816@0.23.1440.816" timestamp="1588773446998" />
     <state x="541" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1583156803943" />
-    <state x="229" y="72" key="SettingsEditor" timestamp="1588591219587">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state x="229" y="72" key="SettingsEditor" timestamp="1588778914910">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state x="229" y="72" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1588591219587" />
-    <state x="229" y="72" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1583147677360" />
+    <state x="229" y="72" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1588764291863" />
+    <state x="229" y="72" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1588778914910" />
     <state x="229" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1581337115857" />
   </component>
 </project>

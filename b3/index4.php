@@ -57,6 +57,16 @@ $categories = [
 		'id' => 4,
 		'name' => 'Thoi trang Y',
 		'parent_id' => 3
+	],
+	[
+		'id' => 5,
+		'name' => 'Bong da Phap',
+		'parent_id' => 1
+	],
+	[
+		'id' => 6,
+		'name' => 'Thoi trang cong so',
+		'parent_id' => 3
 	]
 ];
 // b1 : lay ra tat ca phan tu co parent_id = 0;
@@ -67,6 +77,42 @@ foreach ($categories as $key => $val) {
 		$data[$val['id']]['sub_cat'] = [];
 	}
 }
-echo "<pre>";
-print_r($data);
+
 // lay tat ca nhung thang aon vao ben trong
+foreach ($categories as $key => $val) {
+	foreach ($data as $k => $item) {
+		// kiem tra nhung parent_id cua con bang id cua cha
+		if($val['parent_id'] == $item['id'] && $val['parent_id'] != 0){
+			$data[$item['id']]['sub_cat'][$val['id']] = $val;
+		}
+	}
+}
+?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Categories</title>
+</head>
+<body>
+	<ul>
+	<?php foreach ($data as $key => $item): ?>
+		<li>
+			<a href="#"><?= $item['name']; ?></a>
+			<?php if(isset($item['sub_cat']) && !empty($item['sub_cat'])): ?>
+				<ul>
+				<?php foreach ($item['sub_cat'] as $k => $val): ?>
+					<li>
+						<a href="#"><?= $val['name']; ?></a>
+					</li>
+				<?php endforeach; ?>
+				</ul>
+			<?php endif; ?>
+		</li>
+	<?php endforeach; ?>
+	</ul>
+</body>
+</html>
