@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="466c7580-1573-46b1-adcf-80dd14188792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/b4/index3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b5/date.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b5/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b5/index2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b5/index3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b5/server/check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b5/server/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b5/server/login2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6/form-upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6/server/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -73,7 +70,13 @@
       <workItem from="1583462356557" duration="604000" />
       <workItem from="1588572688070" duration="12032000" />
       <workItem from="1588748693236" duration="12915000" />
-      <workItem from="1589193167717" duration="10233000" />
+      <workItem from="1589193167717" duration="11045000" />
+      <workItem from="1589361900848" duration="599000" />
+      <workItem from="1589512478020" duration="598000" />
+      <workItem from="1589521702208" duration="33000" />
+      <workItem from="1589527026404" duration="599000" />
+      <workItem from="1589618667935" duration="625000" />
+      <workItem from="1589708389208" duration="4037000" />
     </task>
     <servers />
   </component>
@@ -81,16 +84,16 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="541" y="367" key="NewPhpFileDialog" timestamp="1589204587177">
+    <state x="541" y="367" key="NewPhpFileDialog" timestamp="1589804743938">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="541" y="364" key="NewPhpFileDialog/0.23.1440.814@0.23.1440.814" timestamp="1588599128683" />
     <state x="541" y="365" key="NewPhpFileDialog/0.23.1440.816@0.23.1440.816" timestamp="1588773446998" />
-    <state x="541" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1589204587177" />
-    <state x="229" y="72" key="SettingsEditor" timestamp="1589210108372">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="541" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1589804743938" />
+    <state x="229" y="72" key="SettingsEditor" timestamp="1589801611985">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="229" y="72" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1588764291863" />
+    <state x="229" y="72" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1589801611985" />
     <state x="229" y="72" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1589197620393" />
     <state x="229" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1589210108372" />
     <state x="305" y="83" key="SettingsEditor/0.23.1920.993@0.23.1920.993" timestamp="1589196281925" />
