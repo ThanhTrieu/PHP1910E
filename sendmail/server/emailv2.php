@@ -5,7 +5,7 @@
 	
 	use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\Exception;
-	use PHPMailer\PHPMailer\SMTP;
+	//use PHPMailer\PHPMailer\SMTP;
 	
 	if(isset($_POST['btnSend'])) {
 		$email = $_POST['txtEmail'] ?? '';
