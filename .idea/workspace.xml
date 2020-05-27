@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="466c7580-1573-46b1-adcf-80dd14188792" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/b8/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sendmail/server/emailv2.php" beforeDir="false" afterPath="$PROJECT_DIR$/sendmail/server/emailv2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sendmail/public" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -85,7 +85,7 @@
       <workItem from="1590405527565" duration="10594000" />
       <workItem from="1590423651589" duration="98000" />
       <workItem from="1590461726399" duration="2000" />
-      <workItem from="1590575549456" duration="20000" />
+      <workItem from="1590575549456" duration="9398000" />
     </task>
     <servers />
   </component>
@@ -93,20 +93,20 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="439" key="NewPhpFileDialog" timestamp="1590412791577">
+    <state x="721" y="439" key="NewPhpFileDialog" timestamp="1590580127276">
       <screen x="0" y="23" width="1920" height="993" />
     </state>
     <state x="541" y="364" key="NewPhpFileDialog/0.23.1440.814@0.23.1440.814" timestamp="1588599128683" />
     <state x="541" y="365" key="NewPhpFileDialog/0.23.1440.816@0.23.1440.816" timestamp="1588773446998" />
     <state x="541" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1589808561657" />
-    <state x="721" y="439" key="NewPhpFileDialog/0.23.1920.993@0.23.1920.993" timestamp="1590412791577" />
-    <state x="229" y="73" key="SettingsEditor" timestamp="1590423717853">
+    <state x="721" y="439" key="NewPhpFileDialog/0.23.1920.993@0.23.1920.993" timestamp="1590580127276" />
+    <state x="229" y="73" key="SettingsEditor" timestamp="1590601995772">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="229" y="72" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1589801611985" />
     <state x="229" y="72" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1589814986169" />
-    <state x="229" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1589988828923" />
-    <state x="229" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1590423717853" />
-    <state x="305" y="83" key="SettingsEditor/0.23.1920.993@0.23.1920.993" timestamp="1590405544346" />
+    <state x="229" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1590579057602" />
+    <state x="229" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1590601995772" />
+    <state x="305" y="83" key="SettingsEditor/0.23.1920.993@0.23.1920.993" timestamp="1590583628705" />
   </component>
 </project>
